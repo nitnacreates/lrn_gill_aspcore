@@ -5,5 +5,6 @@
         IEnumerable<Pie> AllPies { get; }
         IEnumerable<Pie> PiesofTheWeek { get; }
         Pie? GetPieById(int pieId);
+        IEnumerable<Pie> SearchPies(string searchQuery);
     }
 }
